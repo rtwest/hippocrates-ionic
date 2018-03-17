@@ -37,7 +37,7 @@ TO DO:
 	Client Array - clientguid,clientname,registration?
 	Med Array - clientguid, medname, dosage, amount, specialinstructions, image?, 
 		schedule - 
-- FIGURE OUT SCHEUDULING PEICE FOR REMINDING 
+- FIGURE OUT SCHEUDULING PEICE FOR REMINDING  
 - med details?? - pull from API. Cache.  Have a template view for parsing.
 
 - figure azure mobile table needs
