@@ -1,0 +1,34 @@
+
+https://open.fda.gov/drug/label/
+Basic Needs - MVO
+- Onboard new user.  Get or use a user ID.
+- All clients view start with new user or used user ID; Create new clients
+	- If only 1 client, skip to show that Clients details
+- Client details and prescription list view; Add new prescription. Delete client (hidden)
+	- Chart compliance
+	- taken as needed
+	- show last time taken
+- Prescription and Schedule reminders details
+	- Name look up
+	- add expiration date
+	- add schedule
+	- add notes - 'take with food'
+- Pill look up and information
+- About Screen
+
+Extra Needs
+- Look for drug interactions on their list
+- Look for expiration dates and notify
+
+Reminder Services
+	- Run on phone in background?
+	- Server side push notification?
+
+
+
+---------------------
+TO DO:
+---------------------
+- figure out local data structures
+- figure out page view navigation and some JS animation
+- figure out response to notifications

@@ -27,6 +27,9 @@
         },
         "cordova-plugin-ms-azure-mobile-apps": {
             "PACKAGE_NAME": "io.cordova.myapp96f727"
+        },
+        "cordova-plugin-local-notification": {
+            "PACKAGE_NAME": "io.cordova.myapp96f727"
         }
     },
     "dependent_plugins": {
@@ -34,6 +37,9 @@
             "PACKAGE_NAME": "io.cordova.myapp96f727"
         },
         "cordova-sqlite-storage": {
+            "PACKAGE_NAME": "io.cordova.myapp96f727"
+        },
+        "cordova-plugin-badge": {
             "PACKAGE_NAME": "io.cordova.myapp96f727"
         }
     }

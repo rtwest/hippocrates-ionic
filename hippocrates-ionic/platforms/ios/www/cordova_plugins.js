@@ -79,6 +79,22 @@ module.exports = [
         "clobbers": [
             "WindowsAzure"
         ]
+    },
+    {
+        "id": "cordova-plugin-badge.Badge",
+        "file": "plugins/cordova-plugin-badge/www/badge.js",
+        "pluginId": "cordova-plugin-badge",
+        "clobbers": [
+            "cordova.plugins.notification.badge"
+        ]
+    },
+    {
+        "id": "cordova-plugin-local-notification.LocalNotification",
+        "file": "plugins/cordova-plugin-local-notification/www/local-notification.js",
+        "pluginId": "cordova-plugin-local-notification",
+        "clobbers": [
+            "cordova.plugins.notification.local"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -92,7 +108,9 @@ module.exports.metadata =
     "cordova-plugin-splashscreen": "4.0.3",
     "cordova-plugin-inappbrowser": "1.5.0",
     "cordova-sqlite-storage": "1.4.8",
-    "cordova-plugin-ms-azure-mobile-apps": "2.0.0"
+    "cordova-plugin-ms-azure-mobile-apps": "2.0.0",
+    "cordova-plugin-badge": "0.8.7",
+    "cordova-plugin-local-notification": "0.9.0-beta.3"
 };
 // BOTTOM OF METADATA
 });
